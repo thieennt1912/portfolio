@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectImg from '../assets/img/11.jpg';
 
