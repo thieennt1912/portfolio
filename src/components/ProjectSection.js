@@ -9,6 +9,9 @@ import SwiperCore, { Navigation } from 'swiper';
 SwiperCore.use([Navigation]);
 
 const ProjectSectionStyle = styled.div`
+  .project-container {
+      padding: 10rem 0 5rem;
+   }
   .projects__allItems {
     display: flex;
     gap: 5rem;
