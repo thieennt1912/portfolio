@@ -29,7 +29,6 @@ const ProjectStyle = styled.div`
   }
   .projects__searchBar .searchIcon {
     position: absolute;
-    // width: 3rem;
     font-size: 1.5rem;
     right: 0rem;
     top: 0.8rem;
@@ -91,7 +90,7 @@ const Projects = () => {
                                 title={item.name}
                                 desc={item.desc}
                                 img={item.img}
-                                path={item.path}
+                                link={item.link}
                             />
                         ))}
                     </div>
