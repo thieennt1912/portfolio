@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import { MdEmail, MdLocalPhone } from 'react-icons/md';
-import { RiFacebookCircleFill, RiInstagramFill, RiLinkedinBoxFill, RiInstagramLine, RiFacebookFill } from "react-icons/ri";
+import { RiFacebookCircleFill, RiLinkedinBoxFill, RiInstagramLine } from "react-icons/ri";
 
-// import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
 import SectionTitle from './SectionTitle';
 
