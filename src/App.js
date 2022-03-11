@@ -20,16 +20,16 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route path="/" exact>
+          <Route path="/portfolio" exact>
             <Home />
           </Route>
-          <Route path="/about">
+          <Route path="/portfolio/about">
             <About />
           </Route>
-          <Route path="/contact">
+          <Route path="/portfolio/contact">
             <Contact />
           </Route>
-          <Route path="/projects">
+          <Route path="/portfolio/projects">
             <Projects />
           </Route>
         </Switch>
