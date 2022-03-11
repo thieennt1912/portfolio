@@ -9,8 +9,7 @@ const ProjectInfo = [
         desc:
             'An application to listen to music. Programming languages used: HTML, CSS, Javascript. The application is designed to be suitable for many types of devices.',
         img: playerMusicImg,
-        path: 'https://thieennt1912.github.io/music-player-project/',
-        type: 'Link',
+        link: 'https://thieennt1912.github.io/music-player-project/'
     },
     {
         id: 2,
@@ -18,8 +17,7 @@ const ProjectInfo = [
         desc:
             'An application to perform basic calculations. Programming languages used: Javascript, ReactJS. The application is designed to be suitable for many types of devices.',
         img: CalculatorImg,
-        path: 'https://thieennt1912.github.io/demo-calculator/',
-        type: 'Link',
+        link: 'https://thieennt1912.github.io/demo-calculator/'
     },
     {
         id: 3,
@@ -27,7 +25,7 @@ const ProjectInfo = [
         desc:
             'An application to present my information and products. Programming languages used: Javascript, ReactJS. The application is designed to be suitable for many types of devices.',
         img: PortfolioImg,
-        path: 'https://thieennt1912.github.io/demo-calculator/'
+        link: 'https://thieennt1912.github.io/demo-calculator/'
     }
 ];
 
