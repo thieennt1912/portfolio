@@ -111,6 +111,7 @@ const ContactSectionStyle = styled.div`
       justify-content: center;
     }
     .right {
+      padding-left: 0;
       max-width: 100%;
       display: flex;
       flex-direction: column;
