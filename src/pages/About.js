@@ -86,6 +86,11 @@ const AboutPageStyles = styled.div`
         width: 100%;
       }
     }
+    .about__info {
+      p{
+        font-size: 0.9rem;
+      }
+    }
   }
 `;
 
