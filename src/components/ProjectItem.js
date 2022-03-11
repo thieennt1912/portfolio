@@ -21,11 +21,6 @@ const ProjectItemStyles = styled.div`
     background-color: #1E1E1E;
     padding: 1rem;
     border-radius: 12px;
-
-    a {
-        text-decoration: none;
-        color: #BCB4B4;
-    }
   }
   .projectItem__title {
     font-size: 1.4rem;
@@ -44,6 +39,10 @@ const ProjectItemStyles = styled.div`
     border-radius: 8px;
     background-color: #BCB4B4;
     text-align: center;
+    a {
+      text-decoration: none;
+      color: #000;
+    }
   }
   .projectItem__link:hover {
     cursor: pointer;
