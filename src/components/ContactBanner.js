@@ -15,8 +15,14 @@ const ContactBannerStyles = styled.div`
     margin: 0;
   }
   @media only screen and (max-width: 768px) {
-    .contactBanner__heading {
-      font-size: 1.6rem;
+    .contactBanner__wrapper {
+      p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+      }
+      .contactBanner__heading {
+        font-size: 1.6rem;
+      }
     }
   }
 `;
