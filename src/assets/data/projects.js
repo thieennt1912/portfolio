@@ -25,7 +25,7 @@ const ProjectInfo = [
         desc:
             'An application to present my information and products. Programming languages used: Javascript, ReactJS. The application is designed to be suitable for many types of devices.',
         img: PortfolioImg,
-        link: 'https://thieennt1912.github.io/demo-calculator/'
+        link: 'https://thieennt-portfolio.netlify.app/'
     }
 ];
 
