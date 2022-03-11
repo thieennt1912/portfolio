@@ -79,7 +79,9 @@ const AboutSectionStyles = styled.div`
     }
     .aboutSection__left {
       width: 100%;
-      
+      p {
+        font-size: 0.9rem;
+      }
     }
     .aboutSection__right {
       width: 100%;
@@ -92,6 +94,7 @@ const AboutSectionStyles = styled.div`
       text-align: center;
       p {
         text-align: center;
+        font-size: 0.9rem;
       }
     }
     .para {
