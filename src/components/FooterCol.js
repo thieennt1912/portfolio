@@ -27,7 +27,10 @@ const ColStyle = styled.div`
   @media only screen and (max-width: 768px) {
     .heading, ul {
         text-align: center;
-      }
+    }
+    a {
+        font-size: 0.9rem;
+    }
   }
 `;
 
