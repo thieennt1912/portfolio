@@ -39,6 +39,9 @@ const FooterStyle = styled.div`
     .footer__col1__title {
       text-align: center;
     }
+    .footer__col1__text {
+      font-size: 0.9rem;
+    }
     .copyright {
       .container {
         div {
