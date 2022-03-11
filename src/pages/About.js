@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Button from '../components/Button';
 import AboutImg from '../assets/img/1.JPG';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
