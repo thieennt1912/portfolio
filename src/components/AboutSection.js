@@ -132,7 +132,7 @@ export default function AboutSection() {
           </div>
         </div>
         <div className="aboutSection__right">
-          <img className="aboutImg" src={AboutImg} alt="Img" />
+          <img className="aboutImg" src="../assets/img/3.jpg" alt="Img" />
         </div>
       </div>
     </AboutSectionStyles>
