@@ -1,0 +1,116 @@
+
+.hero {
+    .hero__heading {
+        font-size: 1.8rem;
+        margin-bottom: -2rem;
+        position: relative;
+        span {
+          display: inline-block;
+          width: 100%;
+          font-size: 1.3rem;
+        }
+        .hero__name {
+          font-size: 4rem;
+          color: #fff;
+        }
+    }
+
+    .hero__img {
+        max-width: 900px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+      
+      img {
+        border: 2px solid #BCB4B4;
+        max-width: 900px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .hero__info {
+        max-width: 490px;
+        margin: -16rem auto 0;
+        font-size: 1.3rem;
+        line-height: 1.3em;
+        @media only screen and (max-width: 768px) {
+            font-size: 1.4rem;
+        }
+      }
+}
+
+@media only screen and (max-width: 950px) {
+  .hero {
+    .hero__heading {
+      font-size: 1.8rem;
+      margin-bottom: -1.5rem;
+      position: relative;
+      span {
+        display: inline-block;
+        width: 100%;
+        font-size: 1.1rem;
+        font-weight: 400;
+      }
+      .hero__name {
+        font-size: 2.4rem;
+        font-weight: 500;
+      }
+    }
+    .hero__img {
+      width: 100%;
+      height: auto;
+      
+      img {
+          width: 100%;
+          height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    .hero__heading {
+        font-size: 1.8rem;
+        margin-bottom: -1rem;
+        position: relative;
+        span {
+          display: inline-block;
+          width: 100%;
+          font-size: 1.1rem;
+          font-weight: 400;
+        }
+        .hero__name {
+          font-size: 1.8rem;
+          font-weight: 500;
+        }
+    }
+
+    .hero__img {
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 100%;
+            height: auto;
+            
+        }
+    }
+
+
+    .hero__info {
+        // margin-top: -10rem;
+        max-width: 480px;
+        margin: 0 ;
+        
+        p{
+          font-size: 1.1rem;
+          text-align: center;
+          line-height: 1.6;
+          display: flex;
+        }
+      }
+}
+}
+
